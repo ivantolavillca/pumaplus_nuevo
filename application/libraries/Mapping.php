@@ -54,6 +54,7 @@ class Mapping
 
 
   "77" => "Controller_proveedores@proveedores",
+  "78" => "Controller_precios@precios",
       "90" => "Controller_reporteros_en_accion@index",
       // "91" => "Controller_reporteros_en_accion@crearReportajeReporterosEnAccion",
       // "92" => "Controller_reporteros_en_accion@editarReportajeReporterosEnAcccion",
@@ -190,6 +191,9 @@ class Mapping
         ],
         "PRODUCTOS" => [
           "USUARIOS" => "40000",
+        ],
+        "PRECIOS" => [
+          "PRECIOS POR SUCURSAL" => "78",
         ],
         "CLIENTES" => [
           "LISTADO DE CLIENTES" => "74",
